@@ -1,3 +1,2 @@
-# goit-markup-hw-07
- Репозиторій для сьомого дз
-https://maxgavryshkiv.github.io/goit-markup-hw-07/
+# goit-markup-hw-08
+ Репозиторій для восьомого дз
