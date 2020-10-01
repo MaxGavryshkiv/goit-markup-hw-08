@@ -1,0 +1,38 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+   }
+
+.navigation-wrap{
+    @media screen and (max-width: 767px){
+        display:none
+    }
+}
+
+ .navigation-list {
+     display: flex;
+     align-items: center;
+  
+     &-item:not(:last-child) {
+       margin-right: 50px;
+     }
+  
+     & .item-link {
+       color: $title-text-color;
+       font-weight: 500;
+       font-size: 14px;
+       line-height: 1.14;
+       letter-spacing: 0.02em;
+     }
+  
+     & .item-link:hover,
+     & .item-link:focus {
+       color: $accent-color;
+     }
+  
+     & .item-link.current {
+       color: $accent-color;
+     }
+   }
+  

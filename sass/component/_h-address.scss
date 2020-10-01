@@ -1,0 +1,46 @@
+.address{
+    @media screen and (max-width:767px) {
+        display: none;
+    }
+
+    // display: flex;
+    // justify-content: center;
+}
+
+@media screen and (min-width:768px) {    
+.address-link {
+    
+            
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: $primary-text-color;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        background-color: $primary-white-color;
+
+        .address-link:not(:last-child) {
+            margin-right: 50px;
+        }
+
+        .address-link:hover &-icon,
+        .address-link:focus &-icon {
+            fill: $accent-color;
+        }
+
+        .address-link:hover,
+        .address-link:focus {
+            color: $accent-color;
+        }
+
+        .address-link-icon {
+            width: 20px;
+            height: 20px;
+            fill: $primary-text-color;
+            margin-right: 10px;
+        }
+    }
+}
