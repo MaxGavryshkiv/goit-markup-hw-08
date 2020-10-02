@@ -1,46 +1,61 @@
 .address{
-    @media screen and (max-width:767px) {
+    @media screen and (max-width:768px) {
         display: none;
     }
 
-    // display: flex;
-    // justify-content: center;
+    @media screen and (min-width:1170px) {
+        display: flex;
+        justify-content: center;
+        
+    }
+     
 }
 
 @media screen and (min-width:768px) {    
 .address-link {
     
             
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 
-        color: $primary-text-color;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        background-color: $primary-white-color;
+    color: $primary-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    background-color: $primary-white-color;
 
-        .address-link:not(:last-child) {
-            margin-right: 50px;
+    &:first-child{
+        margin-bottom: 10px;
         }
 
-        .address-link:hover &-icon,
-        .address-link:focus &-icon {
-            fill: $accent-color;
+    &:hover &-icon,
+    &:focus &-icon {
+        fill: $accent-color;
         }
 
-        .address-link:hover,
-        .address-link:focus {
-            color: $accent-color;
+    &:hover,
+    &:focus {
+        color: $accent-color;
         }
 
-        .address-link-icon {
-            width: 20px;
-            height: 20px;
-            fill: $primary-text-color;
-            margin-right: 10px;
+    &-icon {
+        width: 20px;
+        height: 20px;
+        fill: $primary-text-color;
+        margin-right: 10px;
         }
+    .tel {
+        width: 12.5px;
+        height: 20px;
     }
+    }
+}
+
+@media screen and (min-width:1170px) {
+    .address-link:first-child{
+        margin-right: 50px;
+        margin-bottom: 0px;
+        }
 }

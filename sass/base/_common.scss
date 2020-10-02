@@ -2,7 +2,7 @@
   *::after,
   *::before {
   box-sizing: inherit;
-  outline: 2px solid teal;
+  // outline: 2px solid teal;
 }
   html {
     box-sizing: border-box;
@@ -17,11 +17,23 @@
   }
 
   .container {
-    max-width: 480px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (min-width:480px) {
+      max-width: 480px;
+  }
+
+    @media screen and (min-width:768px) {
+      max-width: 768px;
+
+  }
+
+    @media screen and (min-width:1170px) {
+    max-width: 1170px;
+}
 
   }
   
