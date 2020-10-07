@@ -1,60 +1,57 @@
-  *,  
-  *::after,
-  *::before {
+*,
+*::after,
+*::before {
   box-sizing: inherit;
   // outline: 2px solid teal;
 }
-  html {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: $primary-white-color;
-    color: $primary-text-color;
-  
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
-  }
-
-  .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-
-    @media screen and (min-width:480px) {
-      max-width: 480px;
-  }
-
-    @media screen and (min-width:768px) {
-      max-width: 768px;
-
-  }
-
-    @media screen and (min-width:1170px) {
-    max-width: 1170px;
+html {
+  box-sizing: border-box;
 }
 
-  }
-  
+body {
+  background-color: $primary-white-color;
+  color: $primary-text-color;
 
-  a {
-    text-decoration: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
   }
-  
-  h2,
-  h3 {
-    color: $title-text-color;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
   }
-  
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
   }
-  
-  .list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,
+h3 {
+  color: $title-text-color;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,93 @@
+.mailing-container {
+  margin-top: 70px;
+  margin-left: 90px;
+}
+
+.mailing {
+  &-title {
+    color: $primary-white-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  &-label-input {
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 16px;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &-label-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &-subscribe {
+    max-width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: $accent-color;
+    outline-color: $accent-color;
+
+    padding: 0 28px;
+    margin-left: 10px;
+  }
+  &-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #ffffff;
+  }
+  &-icon {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 1199.5px) {
+  .mailing-container {
+    margin: 0;
+    max-width: 450px;
+    width: 100%;
+    display: inline-grid;
+  }
+
+  .mailing-label-input {
+    max-width: 450px;
+    width: 100%;
+  }
+
+  .mailing-label {
+    padding-bottom: 20px;
+  }
+
+  .mailing-subscribe {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mailing-label-input {
+    width: 350px;
+  }
+}

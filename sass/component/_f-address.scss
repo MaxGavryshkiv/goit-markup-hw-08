@@ -1,0 +1,21 @@
+.address-list-item:first-child {
+  margin-bottom: 9px;
+  color: $primary-white-color;
+}
+.address-list-item-link-1 {
+  display: inline-block;
+  margin-bottom: 9px;
+}
+.address-list-item-link-2 {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+.footer-address-list {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.address-list-item-link-1,
+.address-list-item-link-2 {
+  color: $additional-color;
+}

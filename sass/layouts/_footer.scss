@@ -1,0 +1,28 @@
+.footer {
+  background-color: $second-background;
+}
+
+@media screen and (max-width: 767.5px) {
+  .footer {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.5px) {
+  .footer {
+    text-align: center;
+  }
+  .container-tablet {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-content {
+    display: flex;
+  }
+  .container-tablet {
+    display: flex;
+  }
+}

@@ -1,13 +1,13 @@
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    background-color: $primary-white-color;
-    border-bottom: 2px solid #ececec;
-  }
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: $primary-white-color;
+}
 
 .header .flexbox {
-    display: flex;
-    align-items: center;
-    }
-
-  
+  display: flex;
+  align-items: center;
+}
+.menu-container {
+  display: contents;
+}

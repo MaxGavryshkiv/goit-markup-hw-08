@@ -1,22 +1,30 @@
 .logo {
-    font-family: Raleway, cursive;
-    font-size: 26px;
-    line-height: 1.19;
-    margin-right: 90px;
-    display: flex;
-    align-items: center;
-  
-    &-first {
-      color: $accent-color;
-    }
-  
-    & &-second {
-      color: $title-text-color;
-    }
-  
-    &-bottom &-third {
-      color: $primary-white-color;
-    }
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  margin-right: 90px;
+  display: flex;
+  align-items: center;
+
+  &-first {
+    color: $accent-color;
   }
-  
- 
+
+  & &-second {
+    color: $title-text-color;
+  }
+
+  &-bottom &-third {
+    color: $primary-white-color;
+  }
+}
+
+.logo-bottom {
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}

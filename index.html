@@ -19,40 +19,60 @@
     <!--header-->
     <header class="header">
       <div class="container flexbox">
-        
         <a class="logo" href="./index.html">
           <span class="logo-first">Web</span
           ><span class="logo-second">Studio</span>
         </a>
-        <div class="navigation-wrap">
-        <nav class="navigation">
-          <ul class="navigation-list list">
-            <li class="navigation-list-item">
-              <a class="item-link current" href="./index.html"> Студия </a>
-            </li>
-            <li class="navigation-list-item">
-              <a class="item-link" href="./portfolio.html"> Портфолио </a>
-            </li>
-            <li class="navigation-list-item">
-              <a class="item-link" href=""> Контакты </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
 
-        <div class="address">
-          <a class="address-link" href="mailto:info@devstudio.com">
-            <svg class="address-link-icon">
-              <use href="./img/icon/sprite.svg#envelope"></use>
-            </svg>
-            info@devstudio.com
-          </a>
-          <a class="address-link" href="tel:+380961111111">
-            <svg class="address-link-icon tel">
-              <use href="./img/icon/sprite.svg#smartphone"></use>
-            </svg>
-            +38 096 111 11 11
-          </a>
+        <button
+          type="button"
+          class="menu-button"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+        >
+          <svg class="menu-svg" aria-label="Переключатель мобильного меню">
+            <use
+              class="menu-close"
+              href="./img/icon/sprite.svg#close_menu"
+            ></use>
+            <use
+              class="menu-open"
+              href="./img/icon/sprite.svg#menu_burger"
+            ></use>
+          </svg>
+        </button>
+        <div class="menu-container" id="menu-container" data-menu>
+          <div class="navigation-wrap">
+            <nav class="navigation">
+              <ul class="navigation-list list">
+                <li class="navigation-list-item">
+                  <a class="item-link current" href="./index.html"> Студия </a>
+                </li>
+                <li class="navigation-list-item">
+                  <a class="item-link" href="./portfolio.html"> Портфолио </a>
+                </li>
+                <li class="navigation-list-item">
+                  <a class="item-link" href=""> Контакты </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="address">
+            <a class="address-link" href="mailto:info@devstudio.com">
+              <svg class="address-link-icon">
+                <use href="./img/icon/sprite.svg#envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+            <a class="address-link" href="tel:+380961111111">
+              <svg class="address-link-icon tel">
+                <use href="./img/icon/sprite.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </div>
         </div>
       </div>
     </header>
@@ -74,8 +94,7 @@
         </div>
       </section>
 
-      <!--features--
-
+      <!--features-->
       <section class="features">
         <div class="container">
           <h2 class="section-title" hidden>Особенности</h2>
@@ -112,7 +131,7 @@
         </div>
       </section>
 
-      <!--employment--
+      <!--employment-->
 
       <section class="section employment">
         <div class="container">
@@ -155,7 +174,7 @@
         </div>
       </section>
 
-      <!--Our team--
+      <!--Our team-->
 
       <section class="section team">
         <div class="container">
@@ -429,7 +448,7 @@
         </div>
       </section>
 
-      <!-- our clients --
+      <!-- our clients -->
       <section class="section clients">
         <div class="container">
           <h2 class="clients-title">Постоянные клиенты</h2>
@@ -511,91 +530,95 @@
       </section>
     </main>
 
-    <!--footer--
+    <!--footer-->
     <footer class="footer">
       <div class="container footer-content">
-        <div class="footer-address">
-          <a class="logo-bottom" href="./index.html">
-            <span class="logo-first">Web</span
-            ><span class="logo-third">Studio</span>
-          </a>
+        <div class="container-tablet">
+          <div class="footer-address">
+            <a class="logo-bottom" href="./index.html">
+              <span class="logo-first">Web</span
+              ><span class="logo-third">Studio</span>
+            </a>
 
-          <address>
-            <ul class="footer-address-list list">
-              <li class="address-list-item">г. Киев, пр-т Леси Украинки, 26</li>
-              <li class="address-list-item">
+            <address>
+              <ul class="footer-address-list list">
+                <li class="address-list-item">
+                  г. Киев, пр-т Леси Украинки, 26
+                </li>
+                <li class="address-list-item">
+                  <a
+                    class="address-list-item-link-1"
+                    href="mailto:info@example.com"
+                  >
+                    info@example.com
+                  </a>
+                </li>
+                <li class="address-list-item">
+                  <a class="address-list-item-link-2" href="tel:+380991111111">
+                    +38 099 111 11 11
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div class="footer-networks">
+            <p class="footer-networks-title">присоединяйтесь</p>
+            <ul class="list footer-networks-list">
+              <li class="footer-networks-list-item">
                 <a
-                  class="address-list-item-link-1"
-                  href="mailto:info@example.com"
+                  class="footer-networks-list-item-link"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="силка інстаграм"
                 >
-                  info@example.com
+                  <svg class="footer-networks-list-item-link-icon">
+                    <use href="./img/icon/sprite.svg#instagram"></use>
+                  </svg>
                 </a>
               </li>
-              <li class="address-list-item">
-                <a class="address-list-item-link-2" href="tel:+380991111111">
-                  +38 099 111 11 11
+              <li class="footer-networks-list-item">
+                <a
+                  class="footer-networks-list-item-link"
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="силка твітер"
+                >
+                  <svg class="footer-networks-list-item-link-icon">
+                    <use href="./img/icon/sprite.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-networks-list-item">
+                <a
+                  class="footer-networks-list-item-link"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="силка фейсбук"
+                >
+                  <svg class="footer-networks-list-item-link-icon">
+                    <use href="./img/icon/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-networks-list-item">
+                <a
+                  class="footer-networks-list-item-link"
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="силка лінкедін"
+                >
+                  <svg class="footer-networks-list-item-link-icon">
+                    <use href="./img/icon/sprite.svg#linkedin"></use>
+                  </svg>
                 </a>
               </li>
             </ul>
-          </address>
-        </div>
-
-        <div class="footer-networks">
-          <p class="footer-networks-title">присоединяйтесь</p>
-          <ul class="list footer-networks-list">
-            <li class="footer-networks-list-item">
-              <a
-                class="footer-networks-list-item-link"
-                href="https://www.instagram.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="силка інстаграм"
-              >
-                <svg class="footer-networks-list-item-link-icon">
-                  <use href="./img/icon/sprite.svg#instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-networks-list-item">
-              <a
-                class="footer-networks-list-item-link"
-                href="https://twitter.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="силка твітер"
-              >
-                <svg class="footer-networks-list-item-link-icon">
-                  <use href="./img/icon/sprite.svg#twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-networks-list-item">
-              <a
-                class="footer-networks-list-item-link"
-                href="https://www.facebook.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="силка фейсбук"
-              >
-                <svg class="footer-networks-list-item-link-icon">
-                  <use href="./img/icon/sprite.svg#facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-networks-list-item">
-              <a
-                class="footer-networks-list-item-link"
-                href="https://www.linkedin.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="силка лінкедін"
-              >
-                <svg class="footer-networks-list-item-link-icon">
-                  <use href="./img/icon/sprite.svg#linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          </div>
         </div>
 
         <div class="mailing-container">
@@ -612,14 +635,16 @@
             />
           </label>
           <button type="submit" class="mailing-subscribe">
-            <span class="mailing-text">Подписаться</span>
-            <svg class="mailing-icon">
-              <use href="./img/icon/sprite.svg#telegram"></use>
-            </svg>
+            <div class="button-content">
+              <span class="mailing-text">Подписаться</span>
+              <svg class="mailing-icon">
+                <use href="./img/icon/sprite.svg#telegram"></use>
+              </svg>
+            </div>
           </button>
         </div>
       </div>
-    </footer>  -->
+    </footer>
 
     <!-- modal -->
 
@@ -716,7 +741,7 @@
           <button class="button" type="submit">Отправить</button>
         </form>
       </div>
-    </div> 
+    </div>
 
     <script src="./js/script.js"></script>
   </body>
