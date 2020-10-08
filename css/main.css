@@ -84,10 +84,30 @@ img {
   display: contents;
 }
 
+@media screen and (max-width: 1199.5px) {
+  .logo {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+  .logo-bottom {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  .logo-bottom {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
 .logo {
   font-family: Raleway, cursive;
-  font-size: 26px;
-  line-height: 1.19;
   margin-right: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,8 +131,6 @@ img {
 
 .logo-bottom {
   font-family: Raleway, cursive;
-  font-size: 26px;
-  line-height: 1.19;
   display: inline-block;
   margin-bottom: 20px;
 }
@@ -368,6 +386,20 @@ img {
   }
 }
 
+@media screen and (max-width: 1199.5px) {
+  .hero-title {
+    font-size: 26px;
+    line-height: 1.62;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    font-size: 44px;
+    line-height: 1.37;
+  }
+}
+
 .hero {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/bacground/hero.jpg);
   background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/bacground/hero.jpg);
@@ -379,8 +411,6 @@ img {
 .hero-title {
   color: #ffffff;
   font-weight: 900;
-  font-size: 26px;
-  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -420,6 +450,44 @@ img {
   }
 }
 
+@media screen and (max-width: 1199.5px) {
+  .modal {
+    max-width: 450px;
+    min-height: 609px;
+  }
+  .form-title {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .form-label-agreement-text {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+  .form-label-agreement-link {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    max-width: 528px;
+    min-height: 581px;
+  }
+  .form-title {
+    font-size: 20px;
+    line-height: 1.15;
+  }
+  .form-label-agreement-text {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  .form-label-agreement-link {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
+
 .form-label {
   position: relative;
 }
@@ -456,8 +524,6 @@ img {
   -webkit-transform: translateX(-50%) scale(1);
           transform: translateX(-50%) scale(1);
   width: 100%;
-  max-width: 528px;
-  min-height: 581px;
   padding: 40px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -491,8 +557,6 @@ img {
 
 .form-title {
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -610,14 +674,10 @@ img {
 }
 
 .form-label-agreement-text {
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .form-label-agreement-link {
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #2196f3;
   -webkit-text-decoration-line: underline;
@@ -641,10 +701,22 @@ img {
   fill: #2196f3;
 }
 
+@media screen and (max-width: 1199.5px) {
+  .section-title {
+    font-size: 28px;
+    line-height: 1.18;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-title {
+    font-size: 36px;
+    line-height: 1.17;
+  }
+}
+
 .section-title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
   text-align: center;
 }
 
@@ -973,6 +1045,20 @@ img {
   fill: #afb1b8;
 }
 
+@media screen and (max-width: 1199.5px) {
+  .clients-title {
+    font-size: 28px;
+    line-height: 1.18;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients-title {
+    font-size: 36px;
+    line-height: 1.17;
+  }
+}
+
 .clients-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -987,8 +1073,6 @@ img {
 .clients-title {
   color: #212121;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 0;
@@ -1134,10 +1218,30 @@ img {
   }
 }
 
+@media screen and (max-width: 1199.5px) {
+  .logo {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+  .logo-bottom {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  .logo-bottom {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
 .logo {
   font-family: Raleway, cursive;
-  font-size: 26px;
-  line-height: 1.19;
   margin-right: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1161,8 +1265,6 @@ img {
 
 .logo-bottom {
   font-family: Raleway, cursive;
-  font-size: 26px;
-  line-height: 1.19;
   display: inline-block;
   margin-bottom: 20px;
 }

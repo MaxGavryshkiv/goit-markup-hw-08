@@ -1,3 +1,40 @@
+@media screen and (max-width: 1199.5px) {
+  .modal {
+    max-width: 450px;
+    min-height: 609px;
+  }
+  .form-title {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .form-label-agreement-text {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+  .form-label-agreement-link {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    max-width: 528px;
+    min-height: 581px;
+  }
+  .form-title {
+    font-size: 20px;
+    line-height: 1.15;
+  }
+  .form-label-agreement-text {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  .form-label-agreement-link {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
+
 .form-label {
   position: relative;
 }
@@ -30,8 +67,6 @@
   left: 50%;
   transform: translateX(-50%) scale(1);
   width: 100%;
-  max-width: 528px;
-  min-height: 581px;
   padding: 40px;
   transition: all 0.5s;
 }
@@ -63,8 +98,6 @@
 }
 .form-title {
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -157,14 +190,9 @@
 }
 
 .form-label-agreement-text {
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
 .form-label-agreement-link {
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   color: $accent-color;
   text-decoration-line: underline;
@@ -184,10 +212,20 @@
     fill: $accent-color;
   }
 }
+@media screen and (max-width: 1199.5px) {
+  .section-title {
+    font-size: 28px;
+    line-height: 1.18;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-title {
+    font-size: 36px;
+    line-height: 1.17;
+  }
+}
 
 .section-title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
   text-align: center;
 }

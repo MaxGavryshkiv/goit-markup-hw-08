@@ -1,3 +1,16 @@
+@media screen and (max-width: 1199.5px) {
+  .clients-title {
+    font-size: 28px;
+    line-height: 1.18;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients-title {
+    font-size: 36px;
+    line-height: 1.17;
+  }
+}
+
 .clients-list {
   display: flex;
   flex-wrap: wrap;
@@ -7,8 +20,6 @@
 .clients-title {
   color: $title-text-color;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 0;
