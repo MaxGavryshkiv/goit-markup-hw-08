@@ -1,3 +1,6 @@
+.form-label {
+  position: relative;
+}
 .backdrop {
   position: fixed;
   top: 0;
@@ -6,6 +9,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   overflow: scroll;
+  z-index: 5;
 
   &.is-hidden {
     opacity: 0;
@@ -74,10 +78,6 @@
   margin-bottom: 4px;
 }
 
-.input-conteiner {
-  position: relative;
-}
-
 .input {
   max-width: 448px;
   height: 40px;
@@ -89,7 +89,7 @@
 
   &-icon {
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 15px;
     transform: translateY(-50%);
     display: inline-block;

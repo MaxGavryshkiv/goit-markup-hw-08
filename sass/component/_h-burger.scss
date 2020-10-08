@@ -1,5 +1,9 @@
 .header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
 }
 @media screen and (max-width: 767.5px) {
   .menu-button {
@@ -13,6 +17,10 @@
   .menu-svg {
     width: 20px;
     height: 20px;
+  }
+  .menu-svg:hover,
+  .menu-svg:focus {
+    fill: $accent-color;
   }
   .menu-button .menu-close {
     display: none;
