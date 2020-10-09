@@ -401,8 +401,6 @@ img {
 }
 
 .hero {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/bacground/hero.jpg);
-  background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/bacground/hero.jpg);
   background-color: #c4c4c4;
   background-size: cover;
   background-repeat: no-repeat;
@@ -417,6 +415,69 @@ img {
   padding-top: 120px;
   -webkit-margin-before: 0;
           margin-block-start: 0;
+}
+
+@media screen and (max-width: 767.5px) and (min-device-pixel-ratio: 1), screen and (max-width: 767.5px) and (-webkit-min-device-pixel-ratio: 1), screen and (max-width: 767.5px) and (min-resolution: 96dpi), screen and (max-width: 767.5px) and (min-resolution: 1dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../img/bacground/hero-phone.jpg);
+    background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/bacground/hero-phone.jpg);
+  }
+}
+
+@media screen and (max-width: 767.5px) and (min-device-pixel-ratio: 2), screen and (max-width: 767.5px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767.5px) and (min-resolution: 192dpi), screen and (max-width: 767.5px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../img/bacground/hero-phone@X2.jpg);
+    background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/bacground/hero-phone@X2.jpg);
+  }
+}
+
+@media screen and (max-width: 767.5px) and (min-device-pixel-ratio: 3), screen and (max-width: 767.5px) and (-webkit-min-device-pixel-ratio: 3), screen and (max-width: 767.5px) and (min-resolution: 288dpi), screen and (max-width: 767.5px) and (min-resolution: 3dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../img/bacground/hero-phone@X3.jpg);
+    background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/bacground/hero-phone@X3.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.5px) and (min-device-pixel-ratio: 1), screen and (min-width: 768px) and (max-width: 1199.5px) and (-webkit-min-device-pixel-ratio: 1), screen and (min-width: 768px) and (max-width: 1199.5px) and (min-resolution: 96dpi), screen and (min-width: 768px) and (max-width: 1199.5px) and (min-resolution: 1dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../img/bacground/hero-tablet.jpg);
+    background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/bacground/hero-tablet.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.5px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199.5px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199.5px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199.5px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../img/bacground/hero-tablet@X2.jpg);
+    background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/bacground/hero-tablet@X2.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.5px) and (min-device-pixel-ratio: 3), screen and (min-width: 768px) and (max-width: 1199.5px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 768px) and (max-width: 1199.5px) and (min-resolution: 288dpi), screen and (min-width: 768px) and (max-width: 1199.5px) and (min-resolution: 3dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../img/bacground/hero-tablet@X3.jpg);
+    background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/bacground/hero-tablet@X3.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 1), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1), screen and (min-width: 1200px) and (min-resolution: 96dpi), screen and (min-width: 1200px) and (min-resolution: 1dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../img/bacground/hero.jpg);
+    background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/bacground/hero.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../img/bacground/hero@X2.jpg);
+    background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/bacground/hero@X2.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 3), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 1200px) and (min-resolution: 288dpi), screen and (min-width: 1200px) and (min-resolution: 3dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../img/bacground/hero@X3.jpg);
+    background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/bacground/hero@X3.jpg);
+  }
 }
 
 .button {
