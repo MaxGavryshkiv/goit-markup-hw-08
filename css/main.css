@@ -598,8 +598,8 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
-  width: 30px;
-  height: 30px;
+  width: 33px;
+  height: 33px;
   border-radius: 50%;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -609,6 +609,9 @@ img {
   width: 11px;
   height: 11px;
   fill: #000000;
+  position: absolute;
+  top: 10px;
+  right: 9px;
 }
 
 .modal-close:hover .modal-close-icon,
@@ -627,7 +630,7 @@ img {
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: #757575;
-  display: inline-block;
+  display: flexbox;
   margin-bottom: 4px;
 }
 
@@ -746,7 +749,7 @@ img {
 }
 
 .option {
-  display: block;
+  display: inline-block;
   outline-color: #2196f3;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
